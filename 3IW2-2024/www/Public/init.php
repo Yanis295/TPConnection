@@ -32,8 +32,6 @@ try {
         // Exécuter la création de la table
         $pdo->exec($createTableSQL);
 
-    } else {
-        echo "La table 'users' existe déjà.<br>";
     }
 } catch (PDOException $e) {
     // Gestion des erreurs de connexion ou d'exécution SQL
