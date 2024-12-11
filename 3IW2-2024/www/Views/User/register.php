@@ -25,7 +25,7 @@
             <input type="password" id="pwdConfirm" name="pwdConfirm" required>
         </div>
         <div>
-            <label for="first_name">Prénom:</label>
+            <label for="first_name">Prenom:</label>
             <input type="text" id="first_name" name="first_name" required>
         </div>
         <div>
