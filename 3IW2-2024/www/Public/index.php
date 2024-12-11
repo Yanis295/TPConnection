@@ -1,5 +1,7 @@
 <?php
 
+require 'init.php';
+
 spl_autoload_register("myAutoloader");
 function myAutoloader(string $class){
     $pathClass = "../".str_ireplace(["App\\", "\\"], ["","/"], $class).".php";
@@ -7,7 +9,6 @@ function myAutoloader(string $class){
         include $pathClass;
     }
 }
-
 
 
 /*
